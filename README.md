@@ -230,13 +230,13 @@ bentwire tray icon in the panel).
 
 | File | Shows |
 |---|---|
-| [hero.gif](screenshots/hero.gif), [hero-2x.gif](screenshots/hero-2x.gif) | Clippit appears, waves and says hello (800x450, and 1600x900 for HiDPI) |
+| [hero.gif](screenshots/hero.gif) | Clippit appears, waves and says hello |
 | [appear.gif](screenshots/appear.gif) | the character appears and waves |
 | [say.gif](screenshots/say.gif) | `bentwire say` with the Agent balloon typing out its text |
 | [ask.gif](screenshots/ask.gif) | `bentwire ask` with the Office balloon; the pointer clicks "Show log" |
 | [menu.gif](screenshots/menu.gif) | the right-click menu, the pointer moving over its items |
-| [drag.gif](screenshots/drag.gif) | dragging the character across the whole desktop |
-| [tour.gif](screenshots/tour.gif) | Clippit, Merlin, Genie, Peedy and Rover appear one after another |
+| [drag.gif](screenshots/drag.gif) | dragging the character across the desktop |
+| [tour.gif](screenshots/tour.gif) | Clippit, Merlin, Genie, Peedy and Rover appear and greet one after another |
 | [idle.png](screenshots/idle.png) | the whole Plasma desktop with the character above the panel and its tray icon |
 | [say.png](screenshots/say.png) | `say` in the Agent word balloon |
 | [ask.png](screenshots/ask.png) | `ask` in the Office balloon with the Office theme |
@@ -244,10 +244,12 @@ bentwire tray icon in the panel).
 | [characters.png](screenshots/characters.png) | Agent 2.0 Merlin, Agent 1.5 Merlin, Office 97 Genius (bitmap) and Office 97 Clippit (vector), each from its own run on the same desktop |
 | [hidpi.png](screenshots/hidpi.png) | the same desktop at output scale 2 (1600x900) |
 
-They are made by bentwire's `scripts/screenshots.sh --classics <this checkout> --all`, on a
-headless Plasma session with a fixed 1280x720 output, seed 1 and a frozen clock. The PNGs
-are byte-identical on every run; the GIFs are recorded in real time and give the same
-frames on every run. The script sets `balloon_font = "Tahoma"`, so the word balloons show
+Every GIF is recorded at output scale 2 and shows a 640x360 crop of the bottom right of the
+desktop (1280x720 pixels, sharp, not upscaled), with the panel, the tray icon and the
+clock. They are made by bentwire's `scripts/screenshots.sh --classics <this checkout> --all`,
+on a headless Plasma session with a fixed 1280x720 output, seed 1 and a frozen clock. The
+PNGs are byte-identical on every run; the GIFs are recorded in real time and give the same
+frames, with single frame times that can differ by 50 ms. The script sets `balloon_font = "Tahoma"`, so the word balloons show
 Tahoma; without that setting they use fontconfig's fallback, see bentwire's README.
 
 The images show KDE artwork: the wallpaper "Sub-Arctic" by Krystian Zajdel,
