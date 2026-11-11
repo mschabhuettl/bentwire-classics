@@ -97,4 +97,6 @@ byte-identical on every run. Each `.bwc` names its source file and its SHA-256 p
 | [hidpi.png](screenshots/hidpi.png) | Office 97 Clippit with the word balloon on a 2x output |
 
 They are made by `scripts/screenshots.sh --classics <this checkout>` in bentwire, under
-headless sway with a fixed output size and seed, and are reproducible.
+headless sway with a fixed output size and seed, and are reproducible (byte-identical on
+rerun). The script sets `balloon_font = "Tahoma"`, so the word balloons show Tahoma; without
+that setting they use fontconfig's fallback, see bentwire's README.
