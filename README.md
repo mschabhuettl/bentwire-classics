@@ -146,6 +146,8 @@ are kept in this repository, apart from bentwire's code, so that the code reposi
 contains this material. bentwire's `docs/sources.md` lists the product, version, size and
 SHA-256 of every source file.
 
+Built with AI assistance. Contains no AI.
+
 ## Characters
 
 61 characters. Ids follow A-ID-1 of bentwire's `docs/architecture.md`: the file stem
