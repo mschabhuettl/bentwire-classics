@@ -3,7 +3,7 @@
 # per line, in the order the pack is built (earlier byte-identical copies win). With
 # `--palette` it prints the Office palette source instead (MSO97.DLL of the Office 97 CD).
 # All Microsoft-specific file and folder names of this pack live here.
-#   BENTWIRE_REFERENCE=$BENTWIRE_REFERENCE BENTWIRE_SOURCES=~/Sources/bentwire sources.sh
+#   BENTWIRE_REFERENCE=... BENTWIRE_SOURCES=... ./sources.sh
 set -euo pipefail
 : "${BENTWIRE_REFERENCE:?NOT RUN: set BENTWIRE_REFERENCE}" "${BENTWIRE_SOURCES:?NOT RUN: set BENTWIRE_SOURCES}"
 R=$BENTWIRE_REFERENCE
