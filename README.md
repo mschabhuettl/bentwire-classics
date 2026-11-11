@@ -45,98 +45,100 @@ files.
 
 Every character in its rest pose, at 1x (shown scaled to one height). Each cell gives the
 name, the id, the family of the character format (`agent` or `office97`) and the source
-product. The images are made from the `.bwc` files by
+product. The images and this table are made from the `.bwc` files by
 bentwire's `scripts/gallery.sh` and are reproducible byte for byte.
 
+<!-- gallery:start -->
 <table>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/clippit.png" height="100" alt="Clippit"><br><b>Clippit</b><br><code>clippit</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/courtney.png" height="100" alt="Courtney"><br><b>Courtney</b><br><code>courtney</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/dot.png" height="100" alt="The Dot"><br><b>The Dot</b><br><code>dot</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/earl.png" height="100" alt="Earl"><br><b>Earl</b><br><code>earl</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/f1.png" height="100" alt="F1"><br><b>F1</b><br><code>f1</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/clippit.png" height="100" alt="Clippit (Microsoft Agent 2.0)"><br><b>Clippit</b><br><code>clippit</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/courtney.png" height="100" alt="Courtney (Microsoft Agent 2.0)"><br><b>Courtney</b><br><code>courtney</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/dot.png" height="100" alt="The Dot (Microsoft Agent 2.0)"><br><b>The Dot</b><br><code>dot</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/earl.png" height="100" alt="Earl (Microsoft Agent 2.0)"><br><b>Earl</b><br><code>earl</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/f1.png" height="100" alt="F1 (Microsoft Agent 2.0)"><br><b>F1</b><br><code>f1</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/genie.png" height="100" alt="Genie"><br><b>Genie</b><br><code>genie</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/logo.png" height="100" alt="Office Logo"><br><b>Office Logo</b><br><code>logo</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/merlin.png" height="100" alt="Merlin"><br><b>Merlin</b><br><code>merlin</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/mnature.png" height="100" alt="Mother Nature"><br><b>Mother Nature</b><br><code>mnature</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/offcat.png" height="100" alt="Links"><br><b>Links</b><br><code>offcat</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/genie.png" height="100" alt="Genie (Microsoft Agent 2.0)"><br><b>Genie</b><br><code>genie</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/logo.png" height="100" alt="Office Logo (Microsoft Agent 2.0)"><br><b>Office Logo</b><br><code>logo</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/merlin.png" height="100" alt="Merlin (Microsoft Agent 2.0)"><br><b>Merlin</b><br><code>merlin</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/mnature.png" height="100" alt="Mother Nature (Microsoft Agent 2.0)"><br><b>Mother Nature</b><br><code>mnature</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/offcat.png" height="100" alt="Links (Microsoft Agent 2.0)"><br><b>Links</b><br><code>offcat</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/peedy.png" height="100" alt="Peedy"><br><b>Peedy</b><br><code>peedy</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/qmark.png" height="100" alt="Qmark"><br><b>Qmark</b><br><code>qmark</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/robby.png" height="100" alt="Robby"><br><b>Robby</b><br><code>robby</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky.png" height="100" alt="Rocky"><br><b>Rocky</b><br><code>rocky</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rover.png" height="100" alt="Rover"><br><b>Rover</b><br><code>rover</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/peedy.png" height="100" alt="Peedy (Microsoft Agent 2.0)"><br><b>Peedy</b><br><code>peedy</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/qmark.png" height="100" alt="Qmark (Microsoft Agent 2.0)"><br><b>Qmark</b><br><code>qmark</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/robby.png" height="100" alt="Robby (Microsoft Agent 2.0)"><br><b>Robby</b><br><code>robby</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky.png" height="100" alt="Rocky (Microsoft Agent 2.0)"><br><b>Rocky</b><br><code>rocky</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rover.png" height="100" alt="Rover (Microsoft Agent 2.0)"><br><b>Rover</b><br><code>rover</code><br><sub>agent, Microsoft Agent 2.0</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/merlin-15.png" height="100" alt="Merlin"><br><b>Merlin</b><br><code>merlin-15</code><br><sub>agent, Microsoft Agent 1.5</sub></td>
-<td align="center" valign="bottom"><img src="gallery/al-15.png" height="100" alt="Al"><br><b>Al</b><br><code>al-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/check-15.png" height="100" alt="Checkmate"><br><b>Checkmate</b><br><code>check-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/gourdy-15.png" height="100" alt="Gourdy"><br><b>Gourdy</b><br><code>gourdy-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/max-15.png" height="100" alt="Max"><br><b>Max</b><br><code>max-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/merlin-15.png" height="100" alt="Merlin (Microsoft Agent 1.5)"><br><b>Merlin</b><br><code>merlin-15</code><br><sub>agent, Microsoft Agent 1.5</sub></td>
+<td align="center" valign="bottom"><img src="gallery/al-15.png" height="100" alt="Al (Microsoft Agent 1.5, third-party)"><br><b>Al</b><br><code>al-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/check-15.png" height="100" alt="Checkmate (Microsoft Agent 1.5, third-party)"><br><b>Checkmate</b><br><code>check-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/gourdy-15.png" height="100" alt="Gourdy (Microsoft Agent 1.5, third-party)"><br><b>Gourdy</b><br><code>gourdy-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/max-15.png" height="100" alt="Max (Microsoft Agent 1.5, third-party)"><br><b>Max</b><br><code>max-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/miku-15.png" height="100" alt="Miku"><br><b>Miku</b><br><code>miku-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/ozzar-15.png" height="100" alt="Ozzar"><br><b>Ozzar</b><br><code>ozzar-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/sharky-15.png" height="100" alt="Sharky"><br><b>Sharky</b><br><code>sharky-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/spaceman-15.png" height="100" alt="Spaceman"><br><b>Spaceman</b><br><code>spaceman-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/totem-15.png" height="100" alt="Totem"><br><b>Totem</b><br><code>totem-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/miku-15.png" height="100" alt="Miku (Microsoft Agent 1.5, third-party)"><br><b>Miku</b><br><code>miku-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/ozzar-15.png" height="100" alt="Ozzar (Microsoft Agent 1.5, third-party)"><br><b>Ozzar</b><br><code>ozzar-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/sharky-15.png" height="100" alt="Sharky (Microsoft Agent 1.5, third-party)"><br><b>Sharky</b><br><code>sharky-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/spaceman-15.png" height="100" alt="Spaceman (Microsoft Agent 1.5, third-party)"><br><b>Spaceman</b><br><code>spaceman-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/totem-15.png" height="100" alt="Totem (Microsoft Agent 1.5, third-party)"><br><b>Totem</b><br><code>totem-15</code><br><sub>agent, Microsoft Agent 1.5 (third-party)</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/clippit-97.png" height="100" alt="Clippit"><br><b>Clippit</b><br><code>clippit-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/dot-97.png" height="100" alt="The Dot"><br><b>The Dot</b><br><code>dot-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/earl-97.png" height="100" alt="Earl"><br><b>Earl</b><br><code>earl-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/genius-97.png" height="100" alt="The Genius"><br><b>The Genius</b><br><code>genius-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/hoverbot-97.png" height="100" alt="Hoverbot"><br><b>Hoverbot</b><br><code>hoverbot-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/clippit-97.png" height="100" alt="Clippit (Office 97)"><br><b>Clippit</b><br><code>clippit-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/dot-97.png" height="100" alt="The Dot (Office 97)"><br><b>The Dot</b><br><code>dot-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/earl-97.png" height="100" alt="Earl (Office 97)"><br><b>Earl</b><br><code>earl-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/genius-97.png" height="100" alt="The Genius (Office 97)"><br><b>The Genius</b><br><code>genius-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/hoverbot-97.png" height="100" alt="Hoverbot (Office 97)"><br><b>Hoverbot</b><br><code>hoverbot-97</code><br><sub>office97, Office 97</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/logo-97.png" height="100" alt="Office Logo"><br><b>Office Logo</b><br><code>logo-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/mnature-97.png" height="100" alt="Mother Nature"><br><b>Mother Nature</b><br><code>mnature-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/powerpup-97.png" height="100" alt="Power Pup"><br><b>Power Pup</b><br><code>powerpup-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/robot-97.png" height="100" alt="F1"><br><b>F1</b><br><code>robot-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky-97.png" height="100" alt="Rocky"><br><b>Rocky</b><br><code>rocky-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/logo-97.png" height="100" alt="Office Logo (Office 97, logo-97)"><br><b>Office Logo</b><br><code>logo-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/mnature-97.png" height="100" alt="Mother Nature (Office 97)"><br><b>Mother Nature</b><br><code>mnature-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/powerpup-97.png" height="100" alt="Power Pup (Office 97)"><br><b>Power Pup</b><br><code>powerpup-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/robot-97.png" height="100" alt="F1 (Office 97)"><br><b>F1</b><br><code>robot-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky-97.png" height="100" alt="Rocky (Office 97)"><br><b>Rocky</b><br><code>rocky-97</code><br><sub>office97, Office 97</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/scribble-97.png" height="100" alt="Scribble"><br><b>Scribble</b><br><code>scribble-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/tofflogo-97.png" height="100" alt="Office Logo"><br><b>Office Logo</b><br><code>tofflogo-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/will-97.png" height="100" alt="Will"><br><b>Will</b><br><code>will-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/dolphin-97.png" height="100" alt="Kairu"><br><b>Kairu</b><br><code>dolphin-97</code><br><sub>office97, Office 97 (Japanese)</sub></td>
-<td align="center" valign="bottom"><img src="gallery/offlady-97.png" height="100" alt="Saeko-sensei"><br><b>Saeko-sensei</b><br><code>offlady-97</code><br><sub>office97, Office 97 (Japanese)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/scribble-97.png" height="100" alt="Scribble (Office 97)"><br><b>Scribble</b><br><code>scribble-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/tofflogo-97.png" height="100" alt="Office Logo (Office 97, tofflogo-97)"><br><b>Office Logo</b><br><code>tofflogo-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/will-97.png" height="100" alt="Will (Office 97)"><br><b>Will</b><br><code>will-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/dolphin-97.png" height="100" alt="Kairu (Office 97, Japanese)"><br><b>Kairu</b><br><code>dolphin-97</code><br><sub>office97, Office 97 (Japanese)</sub></td>
+<td align="center" valign="bottom"><img src="gallery/offlady-97.png" height="100" alt="Saeko-sensei (Office 97, Japanese)"><br><b>Saeko-sensei</b><br><code>offlady-97</code><br><sub>office97, Office 97 (Japanese)</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/baud-bob.png" height="100" alt="Baudelaire"><br><b>Baudelaire</b><br><code>baud-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/blythe-bob.png" height="100" alt="Blythe"><br><b>Blythe</b><br><code>blythe-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/chaos-bob.png" height="100" alt="Chaos"><br><b>Chaos</b><br><code>chaos-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/chaz-bob.png" height="100" alt="Chaz"><br><b>Chaz</b><br><code>chaz-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/dot-bob.png" height="100" alt="The Dot"><br><b>The Dot</b><br><code>dot-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/baud-bob.png" height="100" alt="Baudelaire (Microsoft Bob)"><br><b>Baudelaire</b><br><code>baud-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/blythe-bob.png" height="100" alt="Blythe (Microsoft Bob)"><br><b>Blythe</b><br><code>blythe-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/chaos-bob.png" height="100" alt="Chaos (Microsoft Bob)"><br><b>Chaos</b><br><code>chaos-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/chaz-bob.png" height="100" alt="Chaz (Microsoft Bob)"><br><b>Chaz</b><br><code>chaz-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/dot-bob.png" height="100" alt="The Dot (Microsoft Bob)"><br><b>The Dot</b><br><code>dot-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/hank-bob.png" height="100" alt="Hank"><br><b>Hank</b><br><code>hank-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/hopper-bob.png" height="100" alt="Hopper"><br><b>Hopper</b><br><code>hopper-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/java-bob.png" height="100" alt="Java"><br><b>Java</b><br><code>java-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/lexx-bob.png" height="100" alt="Lexi"><br><b>Lexi</b><br><code>lexx-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/lucy-bob.png" height="100" alt="Lucy"><br><b>Lucy</b><br><code>lucy-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/hank-bob.png" height="100" alt="Hank (Microsoft Bob)"><br><b>Hank</b><br><code>hank-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/hopper-bob.png" height="100" alt="Hopper (Microsoft Bob)"><br><b>Hopper</b><br><code>hopper-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/java-bob.png" height="100" alt="Java (Microsoft Bob)"><br><b>Java</b><br><code>java-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/lexx-bob.png" height="100" alt="Lexi (Microsoft Bob)"><br><b>Lexi</b><br><code>lexx-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/lucy-bob.png" height="100" alt="Lucy (Microsoft Bob)"><br><b>Lucy</b><br><code>lucy-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/orby-bob.png" height="100" alt="Orby"><br><b>Orby</b><br><code>orby-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rover-bob.png" height="100" alt="Rover"><br><b>Rover</b><br><code>rover-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/ruby-bob.png" height="100" alt="Ruby"><br><b>Ruby</b><br><code>ruby-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/scuzz-bob.png" height="100" alt="Scuzz"><br><b>Scuzz</b><br><code>scuzz-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/shelly-bob.png" height="100" alt="Shelly"><br><b>Shelly</b><br><code>shelly-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/orby-bob.png" height="100" alt="Orby (Microsoft Bob)"><br><b>Orby</b><br><code>orby-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rover-bob.png" height="100" alt="Rover (Microsoft Bob)"><br><b>Rover</b><br><code>rover-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/ruby-bob.png" height="100" alt="Ruby (Microsoft Bob)"><br><b>Ruby</b><br><code>ruby-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/scuzz-bob.png" height="100" alt="Scuzz (Microsoft Bob)"><br><b>Scuzz</b><br><code>scuzz-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/shelly-bob.png" height="100" alt="Shelly (Microsoft Bob)"><br><b>Shelly</b><br><code>shelly-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/will-bob.png" height="100" alt="William"><br><b>William</b><br><code>will-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/worm-bob.png" height="100" alt="Digger"><br><b>Digger</b><br><code>worm-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/zspeaker-bob.png" height="100" alt="Speaker"><br><b>Speaker</b><br><code>zspeaker-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky-greetings-act.png" height="100" alt="Rover"><br><b>Rover</b><br><code>rocky-greetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky-earlygreetings-act.png" height="100" alt="Rover"><br><b>Rover</b><br><code>rocky-earlygreetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
+<td align="center" valign="bottom"><img src="gallery/will-bob.png" height="100" alt="William (Microsoft Bob)"><br><b>William</b><br><code>will-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/worm-bob.png" height="100" alt="Digger (Microsoft Bob)"><br><b>Digger</b><br><code>worm-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/zspeaker-bob.png" height="100" alt="Speaker (Microsoft Bob)"><br><b>Speaker</b><br><code>zspeaker-bob</code><br><sub>office97, Microsoft Bob</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky-earlygreetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-earlygreetings-act)"><br><b>Rover</b><br><code>rocky-earlygreetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky-greetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-greetings-act)"><br><b>Rover</b><br><code>rocky-greetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/tutor-act.png" height="100" alt="(unnamed)"><br><b>(unnamed)</b><br><code>tutor-act</code><br><sub>office97, My Personal Tutor</sub></td>
+<td align="center" valign="bottom"><img src="gallery/tutor-act.png" height="100" alt="Unnamed character (My Personal Tutor)"><br><b>(unnamed)</b><br><code>tutor-act</code><br><sub>office97, My Personal Tutor</sub></td>
 </tr>
 </table>
+<!-- gallery:end -->
 
 ## Licence
 
@@ -221,24 +223,24 @@ bentwire tray icon in the panel).
 <td align="center"><img src="screenshots/ask.gif" width="400" alt="Clippit asks a question in the Office balloon and the pointer clicks Show log"><br><code>ask</code>: the Office balloon, and a click on a button</td>
 </tr>
 <tr>
-<td align="center"><img src="screenshots/menu.gif" width="400" alt="The right-click menu of the character with the pointer over its items"><br>The right-click menu</td>
-<td align="center"><img src="screenshots/drag.gif" width="400" alt="The character dragged across the desktop"><br>Dragging the character across the desktop</td>
+<td align="center"><img src="screenshots/menu.gif" width="400" alt="Clippit's right-click menu with Hide, Options..., Choose Assistant... and Animate!, the pointer moving over its items"><br>The right-click menu</td>
+<td align="center"><img src="screenshots/drag.gif" width="400" alt="The pointer drags Clippit across the desktop"><br>Dragging the character across the desktop</td>
 </tr>
 <tr>
 <td align="center"><img src="screenshots/appear.gif" width="400" alt="Clippit appears and waves"><br>Appearing and waving</td>
-<td align="center"><img src="screenshots/tour.gif" width="400" alt="Clippit, Merlin, Genie, Peedy and Rover appear one after another"><br>A tour: Clippit, Merlin, Genie, Peedy, Rover</td>
+<td align="center"><img src="screenshots/tour.gif" width="400" alt="Clippit, Merlin, Genie, Peedy and Rover one after another: each appears, greets and leaves"><br>A tour: Clippit, Merlin, Genie, Peedy, Rover</td>
 </tr>
 </table>
 
 | File | Shows |
 |---|---|
 | [hero.gif](screenshots/hero.gif) | Clippit appears, waves and says hello |
-| [appear.gif](screenshots/appear.gif) | the character appears and waves |
+| [appear.gif](screenshots/appear.gif) | Clippit appears and waves |
 | [say.gif](screenshots/say.gif) | `bentwire say` with the Agent balloon typing out its text |
 | [ask.gif](screenshots/ask.gif) | `bentwire ask` with the Office balloon; the pointer clicks "Show log" |
-| [menu.gif](screenshots/menu.gif) | the right-click menu, the pointer moving over its items |
-| [drag.gif](screenshots/drag.gif) | dragging the character across the desktop |
-| [tour.gif](screenshots/tour.gif) | Clippit, Merlin, Genie, Peedy and Rover appear and greet one after another |
+| [menu.gif](screenshots/menu.gif) | Clippit's right-click menu, the pointer moving over its items |
+| [drag.gif](screenshots/drag.gif) | the pointer drags Clippit across the desktop |
+| [tour.gif](screenshots/tour.gif) | Clippit, Merlin, Genie, Peedy and Rover one after another: each appears, greets and leaves |
 | [idle.png](screenshots/idle.png) | the whole Plasma desktop with the character above the panel and its tray icon |
 | [say.png](screenshots/say.png) | `say` in the Agent word balloon |
 | [ask.png](screenshots/ask.png) | `ask` in the Office balloon with the Office theme |
