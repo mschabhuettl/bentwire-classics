@@ -1,0 +1,23 @@
+# Office balloon theme, extracted from OBALLOON.DLL at pack generation time
+# (characters/classics/regenerate.sh). Frame names follow office-assistant R-OB-8/R-OB-11 [inf].
+format = 1
+name = "Office"
+
+[buttons.small]
+left = "button-small-left.png"
+middle = "button-small-mid.png"
+right = "button-small-right.png"
+frames = ["normal", "default", "hot", "pressed", "disabled"]
+
+[buttons.large]
+left = "button-large-left.png"
+middle = "button-large-mid.png"
+right = "button-large-right.png"
+frames = ["normal", "default", "hot", "pressed", "disabled"]
+
+[bullets]
+label = "bullet.png"
+label_frames = ["normal", "hot", "pressed", "disabled"]
+
+[icons]
+tip = "tip.png"
