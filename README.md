@@ -248,8 +248,9 @@ Every GIF is recorded at output scale 2 and shows a 640x360 crop of the bottom r
 desktop (1280x720 pixels, sharp, not upscaled), with the panel, the tray icon and the
 clock. They are made by bentwire's `scripts/screenshots.sh --classics <this checkout> --all`,
 on a headless Plasma session with a fixed 1280x720 output, seed 1 and a frozen clock. The
-PNGs are byte-identical on every run; the GIFs are recorded in real time and give the same
-frames, with single frame times that can differ by 50 ms. The script sets `balloon_font = "Tahoma"`, so the word balloons show
+PNGs are byte-identical on every run. The GIFs are recorded in real time: some come out
+byte-identical, the others with the same frames, except that a single frame time can
+differ by 50 ms or one run has an extra short frame. The script sets `balloon_font = "Tahoma"`, so the word balloons show
 Tahoma; without that setting they use fontconfig's fallback, see bentwire's README.
 
 The images show KDE artwork: the wallpaper "Sub-Arctic" by Krystian Zajdel,
