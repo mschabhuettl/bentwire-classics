@@ -12,8 +12,10 @@ Requires bentwire 0.1.0 or later.
 ## Licence
 
 bentwire grants no licence for these files. The characters, their sounds and the balloon
-art are Microsoft's; this pack holds them converted from the owner's own copies, kept apart
-from bentwire's code so that the code repository never contains Microsoft material.
+art belong to Microsoft and, for eight of the Agent 1.5 characters, to third parties; they
+are kept in this repository, apart from bentwire's code, so that the code repository never
+contains this material. Where each source file came from is listed in bentwire's
+`docs/sources.md`.
 
 ## Characters
 
