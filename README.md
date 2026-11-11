@@ -21,6 +21,12 @@ The Office palette for ACT bitmap actors is read from `MSO97.DLL` 8.0.3507 of th
 CD at conversion time; vector actors are rasterised by bentwire's WMF rasteriser (1x and 2x,
 aliased). Each `.bwc` names its source file and SHA-256 prefix in `[source]`.
 
+Size: vector actors carry a 2x hidpi sheet next to the 1x sheet (D2 allows it), so they are
+the one case larger than their source: Office 97 Clippit 361 kB (1x) + 954 kB (2x) against
+a 468 kB `.ACT` (about 2.8x, in line with the 2.6x estimate of character-format 12.5); Will
+(Bob and Office 97) about 6x its `.ACT`. Bitmap and Agent characters are smaller than their
+sources.
+
 ## Included
 
 | id | source | bytes |
