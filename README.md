@@ -22,7 +22,7 @@
 
 <div align="center">
 
-<img src="screenshots/ask.png" alt="Clippit asks &quot;Build failed&quot; in the Office balloon, with the buttons Show log and Ignore">
+<img src="screenshots/hero.gif" width="800" alt="Clippit appears on a KDE Plasma desktop, waves and says hello in its word balloon">
 
 </div>
 
@@ -210,17 +210,47 @@ is byte-identical on every run. Each `.bwc` names its source file and its SHA-25
 
 ## Screenshots and GIFs
 
+bentwire with these characters on a real KDE Plasma 6 desktop (default Breeze look, with the
+bentwire tray icon in the panel).
+
+<table>
+<tr>
+<td align="center"><img src="screenshots/say.gif" width="400" alt="Clippit says a sentence, typed out in the Agent word balloon"><br><code>say</code>: the Agent word balloon types out the text</td>
+<td align="center"><img src="screenshots/ask.gif" width="400" alt="Clippit asks a question in the Office balloon and the pointer clicks Show log"><br><code>ask</code>: the Office balloon, and a click on a button</td>
+</tr>
+<tr>
+<td align="center"><img src="screenshots/menu.gif" width="400" alt="The right-click menu of the character with the pointer over its items"><br>The right-click menu</td>
+<td align="center"><img src="screenshots/drag.gif" width="400" alt="The character dragged across the desktop"><br>Dragging the character across the desktop</td>
+</tr>
+<tr>
+<td align="center"><img src="screenshots/appear.gif" width="400" alt="Clippit appears and waves"><br>Appearing and waving</td>
+<td align="center"><img src="screenshots/tour.gif" width="400" alt="Clippit, Merlin, Genie, Peedy and Rover appear one after another"><br>A tour: Clippit, Merlin, Genie, Peedy, Rover</td>
+</tr>
+</table>
+
 | File | Shows |
 |---|---|
-| [idle.png](screenshots/idle.png) | Clippit idle |
+| [hero.gif](screenshots/hero.gif), [hero-2x.gif](screenshots/hero-2x.gif) | Clippit appears, waves and says hello (800x450, and 1600x900 for HiDPI) |
+| [appear.gif](screenshots/appear.gif) | the character appears and waves |
+| [say.gif](screenshots/say.gif) | `bentwire say` with the Agent balloon typing out its text |
+| [ask.gif](screenshots/ask.gif) | `bentwire ask` with the Office balloon; the pointer clicks "Show log" |
+| [menu.gif](screenshots/menu.gif) | the right-click menu, the pointer moving over its items |
+| [drag.gif](screenshots/drag.gif) | dragging the character across the whole desktop |
+| [tour.gif](screenshots/tour.gif) | Clippit, Merlin, Genie, Peedy and Rover appear one after another |
+| [idle.png](screenshots/idle.png) | the whole Plasma desktop with the character above the panel and its tray icon |
 | [say.png](screenshots/say.png) | `say` in the Agent word balloon |
 | [ask.png](screenshots/ask.png) | `ask` in the Office balloon with the Office theme |
-| [menu-en.png](screenshots/menu-en.png) | the right-click menu, English |
-| [menu-de.png](screenshots/menu-de.png) | the right-click menu, German |
-| [characters.png](screenshots/characters.png) | Agent 2.0 Merlin, Agent 1.5 Merlin, Office 97 Genius (bitmap), Office 97 Clippit (vector) |
-| [hidpi.png](screenshots/hidpi.png) | Office 97 Clippit with the word balloon on a 2x output |
+| [menu-en.png](screenshots/menu-en.png), [menu-de.png](screenshots/menu-de.png) | the right-click menu, English and German |
+| [characters.png](screenshots/characters.png) | Agent 2.0 Merlin, Agent 1.5 Merlin, Office 97 Genius (bitmap) and Office 97 Clippit (vector), each from its own run on the same desktop |
+| [hidpi.png](screenshots/hidpi.png) | the same desktop at output scale 2 (1600x900) |
 
-They are made by `scripts/screenshots.sh --classics <this checkout>` in bentwire, under
-headless sway with a fixed output size and seed, and are reproducible (byte-identical on
-rerun). The script sets `balloon_font = "Tahoma"`, so the word balloons show Tahoma; without
-that setting they use fontconfig's fallback, see bentwire's README.
+They are made by bentwire's `scripts/screenshots.sh --classics <this checkout> --all`, on a
+headless Plasma session with a fixed 1280x720 output, seed 1 and a frozen clock. The PNGs
+are byte-identical on every run; the GIFs are recorded in real time and give the same
+frames on every run. The script sets `balloon_font = "Tahoma"`, so the word balloons show
+Tahoma; without that setting they use fontconfig's fallback, see bentwire's README.
+
+The images show KDE artwork: the wallpaper "Sub-Arctic" by Krystian Zajdel,
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), and the Breeze theme,
+icons and cursors of the KDE community. Details in bentwire's
+[docs/credits.md](https://github.com/mschabhuettl/bentwire/blob/main/docs/credits.md).
