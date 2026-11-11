@@ -131,8 +131,8 @@ bentwire's `scripts/gallery.sh` and are reproducible byte for byte.
 <td align="center" valign="bottom"><img src="gallery/will-bob.png" height="100" alt="William (Microsoft Bob)"><br><b>William</b><br><code>will-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 <td align="center" valign="bottom"><img src="gallery/worm-bob.png" height="100" alt="Digger (Microsoft Bob)"><br><b>Digger</b><br><code>worm-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 <td align="center" valign="bottom"><img src="gallery/zspeaker-bob.png" height="100" alt="Speaker (Microsoft Bob)"><br><b>Speaker</b><br><code>zspeaker-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky-earlygreetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-earlygreetings-act)"><br><b>Rover</b><br><code>rocky-earlygreetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
 <td align="center" valign="bottom"><img src="gallery/rocky-greetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-greetings-act)"><br><b>Rover</b><br><code>rocky-greetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky-earlygreetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-earlygreetings-act)"><br><b>Rover</b><br><code>rocky-earlygreetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
 </tr>
 <tr>
 <td align="center" valign="bottom"><img src="gallery/tutor-act.png" height="100" alt="Unnamed character (My Personal Tutor)"><br><b>(unnamed)</b><br><code>tutor-act</code><br><sub>office97, My Personal Tutor</sub></td>
@@ -220,7 +220,7 @@ bentwire tray icon in the panel).
 <table>
 <tr>
 <td align="center"><img src="screenshots/say.gif" width="400" alt="Clippit says a sentence, typed out in the Agent word balloon"><br><code>say</code>: the Agent word balloon types out the text</td>
-<td align="center"><img src="screenshots/ask.gif" width="400" alt="Clippit asks a question in the Office balloon and the pointer clicks Show log"><br><code>ask</code>: the Office balloon, and a click on a button</td>
+<td align="center"><img src="screenshots/ask.gif" width="400" alt="Clippit shows a Build failed message with Show log and Ignore buttons in the Office balloon, and the pointer clicks Show log"><br><code>ask</code>: the Office balloon, and a click on a button</td>
 </tr>
 <tr>
 <td align="center"><img src="screenshots/menu.gif" width="400" alt="Clippit's right-click menu with Hide, Options..., Choose Assistant... and Animate!, the pointer moving over its items"><br>The right-click menu</td>
