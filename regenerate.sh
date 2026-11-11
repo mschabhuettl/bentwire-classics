@@ -22,17 +22,23 @@ bin="$repo/target/release"
 tmp=$(mktemp -d)
 trap 'rm -rf "${tmp:?}"' EXIT
 
-palette="$BENTWIRE_SOURCES/MSO97.DLL"
+"$here/sources.sh" > "$tmp/sources.txt"
 mkdir -p "$tmp/out"
-"$bin/gen-classics" "$BENTWIRE_REFERENCE" "$BENTWIRE_SOURCES" "$tmp/out" "$palette" \
-  "$here/options.txt" > "$tmp/report.tsv"
+"$bin/bentwire-convert" --office-palette "$("$here/sources.sh" --palette)" \
+  --batch "$tmp/sources.txt" "$tmp/out" --per-id "$here/options.txt" > "$tmp/report.abs"
+# Report paths relative to the two input roots.
+while IFS= read -r line; do
+  line=${line//"$BENTWIRE_REFERENCE"/\$BENTWIRE_REFERENCE}
+  printf '%s\n' "${line//"$BENTWIRE_SOURCES"/\$BENTWIRE_SOURCES}"
+done < "$tmp/report.abs" > "$tmp/report.tsv"
 
 find "$here" -maxdepth 1 -name '*.bwc' -delete
 mv "$tmp"/out/*.bwc "$here/"
 
 unzip -q -o "$BENTWIRE_SOURCES/the Office XP files" the Office XP files/OBALLOON.DLL -d "$tmp"
 rm -rf "${here:?}/balloon-themes"
-"$bin/bentwire-convert" --theme "$tmp/the Office XP files/OBALLOON.DLL" "$here/balloon-themes/office"
+"$bin/bentwire-convert" --theme "$tmp/the Office XP files/OBALLOON.DLL" "$here/balloon-themes/office" \
+  --generator "characters/classics/regenerate.sh"
 
 cat > "$here/pack.toml" <<'TOML'
 name = "classics"
