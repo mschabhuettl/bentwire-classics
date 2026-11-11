@@ -1,0 +1,4 @@
+# Converter options per id that the source files do not carry (spec 3.14 A-CONV-3):
+# id  lang  codepage (WHATWG label for the ACT item name and v1 strings)
+offlady-97  ja  shift_jis
+dolphin-97  ja  shift_jis

@@ -24,7 +24,8 @@ trap 'rm -rf "${tmp:?}"' EXIT
 
 palette="$BENTWIRE_SOURCES/MSO97.DLL"
 mkdir -p "$tmp/out"
-"$bin/gen-classics" "$BENTWIRE_REFERENCE" "$BENTWIRE_SOURCES" "$tmp/out" "$palette" > "$tmp/report.tsv"
+"$bin/gen-classics" "$BENTWIRE_REFERENCE" "$BENTWIRE_SOURCES" "$tmp/out" "$palette" \
+  "$here/options.txt" > "$tmp/report.tsv"
 
 find "$here" -maxdepth 1 -name '*.bwc' -delete
 mv "$tmp"/out/*.bwc "$here/"
