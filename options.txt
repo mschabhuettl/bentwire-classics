@@ -2,3 +2,8 @@
 # id  lang  codepage (WHATWG label for the ACT item name and v1 strings)
 offlady-97  ja  shift_jis
 dolphin-97  ja  shift_jis
+# id  palette-from  sibling id (spec 3.14 A-CONV-7): the Greetings Workshop actors carry no
+# palette and none of the sources has theirs; their colours are read from rocky-97, which
+# shows the same pictures in the Office palette (both files share one palette).
+rocky-greetings-act  palette-from  rocky-97
+rocky-earlygreetings-act  palette-from  rocky-97

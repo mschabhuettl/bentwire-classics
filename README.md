@@ -206,13 +206,14 @@ BENTWIRE_SOURCES=<dir>[:<dir>...] BENTWIRE_BIN=<dir with bentwire-convert> ./reg
   Without it, `bentwire-convert` is taken from `PATH`.
 
 The script converts every source into `<id>.bwc` (per-id options in `options.txt`), reads
-the Office palette for bitmap actors from `MSO97.DLL` (Office 97), rasterises vector actors
-with bentwire's WMF rasteriser (1x and 2x, aliased), extracts the balloon theme from
-`OBALLOON.DLL` 10.0.2607 (Office XP), and writes `CONTENTS.md`. The output is
-byte-identical on every run. Each `.bwc` names its source file and its SHA-256 prefix in
-`[source]`. `pack.toml` is not generated: besides the pack metadata it holds the display
-labels where the files cannot tell (product qualifiers such as "third-party", and names
-such as Saeko-sensei and Tutor).
+the Office palette for bitmap actors from `MSO97.DLL` (Office 97; the two Greetings
+Workshop actors, whose own palette is in no source file, take their colours from `rocky-97`,
+which shows the same pictures), rasterises vector actors with bentwire's WMF rasteriser
+(1x and 2x, aliased), extracts the balloon theme from `OBALLOON.DLL` 10.0.2607 (Office XP),
+and writes `CONTENTS.md`. The output is byte-identical on every run. Each `.bwc` names its
+source file and its SHA-256 prefix in `[source]`. `pack.toml` is not generated: besides the
+pack metadata it holds the display labels where the files cannot tell (product qualifiers
+such as "third-party", and names such as Saeko-sensei and Tutor).
 
 ## Screenshots and GIFs
 
