@@ -93,7 +93,7 @@ bentwire's `scripts/gallery.sh` and are reproducible byte for byte.
 <td align="center" valign="bottom"><img src="gallery/hoverbot-97.png" height="100" alt="Hoverbot (Office 97)"><br><b>Hoverbot</b><br><code>hoverbot-97</code><br><sub>office97, Office 97</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/logo-97.png" height="100" alt="Office Logo (Office 97, logo-97)"><br><b>Office Logo</b><br><code>logo-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/logo-97.png" height="100" alt="Office Logo (Office 97)"><br><b>Office Logo</b><br><code>logo-97</code><br><sub>office97, Office 97</sub></td>
 <td align="center" valign="bottom"><img src="gallery/mnature-97.png" height="100" alt="Mother Nature (Office 97)"><br><b>Mother Nature</b><br><code>mnature-97</code><br><sub>office97, Office 97</sub></td>
 <td align="center" valign="bottom"><img src="gallery/powerpup-97.png" height="100" alt="Power Pup (Office 97)"><br><b>Power Pup</b><br><code>powerpup-97</code><br><sub>office97, Office 97</sub></td>
 <td align="center" valign="bottom"><img src="gallery/robot-97.png" height="100" alt="F1 (Office 97)"><br><b>F1</b><br><code>robot-97</code><br><sub>office97, Office 97</sub></td>
@@ -101,8 +101,8 @@ bentwire's `scripts/gallery.sh` and are reproducible byte for byte.
 </tr>
 <tr>
 <td align="center" valign="bottom"><img src="gallery/scribble-97.png" height="100" alt="Scribble (Office 97)"><br><b>Scribble</b><br><code>scribble-97</code><br><sub>office97, Office 97</sub></td>
-<td align="center" valign="bottom"><img src="gallery/tofflogo-97.png" height="100" alt="Office Logo (Office 97, tofflogo-97)"><br><b>Office Logo</b><br><code>tofflogo-97</code><br><sub>office97, Office 97</sub></td>
 <td align="center" valign="bottom"><img src="gallery/will-97.png" height="100" alt="Will (Office 97)"><br><b>Will</b><br><code>will-97</code><br><sub>office97, Office 97</sub></td>
+<td align="center" valign="bottom"><img src="gallery/tofflogo-97.png" height="100" alt="Office Logo (Office 97, static)"><br><b>Office Logo</b><br><code>tofflogo-97</code><br><sub>office97, Office 97 (static)</sub></td>
 <td align="center" valign="bottom"><img src="gallery/dolphin-97.png" height="100" alt="Kairu (Office 97, Japanese)"><br><b>Kairu</b><br><code>dolphin-97</code><br><sub>office97, Office 97 (Japanese)</sub></td>
 <td align="center" valign="bottom"><img src="gallery/offlady-97.png" height="100" alt="Saeko-sensei (Office 97, Japanese)"><br><b>Saeko-sensei</b><br><code>offlady-97</code><br><sub>office97, Office 97 (Japanese)</sub></td>
 </tr>
@@ -131,11 +131,11 @@ bentwire's `scripts/gallery.sh` and are reproducible byte for byte.
 <td align="center" valign="bottom"><img src="gallery/will-bob.png" height="100" alt="William (Microsoft Bob)"><br><b>William</b><br><code>will-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 <td align="center" valign="bottom"><img src="gallery/worm-bob.png" height="100" alt="Digger (Microsoft Bob)"><br><b>Digger</b><br><code>worm-bob</code><br><sub>office97, Microsoft Bob</sub></td>
 <td align="center" valign="bottom"><img src="gallery/zspeaker-bob.png" height="100" alt="Speaker (Microsoft Bob)"><br><b>Speaker</b><br><code>zspeaker-bob</code><br><sub>office97, Microsoft Bob</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky-greetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-greetings-act)"><br><b>Rover</b><br><code>rocky-greetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
-<td align="center" valign="bottom"><img src="gallery/rocky-earlygreetings-act.png" height="100" alt="Rover (Greetings Workshop, rocky-earlygreetings-act)"><br><b>Rover</b><br><code>rocky-earlygreetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky-greetings-act.png" height="100" alt="Rover (Greetings Workshop)"><br><b>Rover</b><br><code>rocky-greetings-act</code><br><sub>office97, Greetings Workshop</sub></td>
+<td align="center" valign="bottom"><img src="gallery/rocky-earlygreetings-act.png" height="100" alt="Rover (Greetings Workshop, early version)"><br><b>Rover</b><br><code>rocky-earlygreetings-act</code><br><sub>office97, Greetings Workshop (early version)</sub></td>
 </tr>
 <tr>
-<td align="center" valign="bottom"><img src="gallery/tutor-act.png" height="100" alt="Unnamed character (My Personal Tutor)"><br><b>(unnamed)</b><br><code>tutor-act</code><br><sub>office97, My Personal Tutor</sub></td>
+<td align="center" valign="bottom"><img src="gallery/tutor-act.png" height="100" alt="Tutor (My Personal Tutor)"><br><b>Tutor</b><br><code>tutor-act</code><br><sub>office97, My Personal Tutor</sub></td>
 </tr>
 </table>
 <!-- gallery:end -->
@@ -208,9 +208,11 @@ BENTWIRE_SOURCES=<dir>[:<dir>...] BENTWIRE_BIN=<dir with bentwire-convert> ./reg
 The script converts every source into `<id>.bwc` (per-id options in `options.txt`), reads
 the Office palette for bitmap actors from `MSO97.DLL` (Office 97), rasterises vector actors
 with bentwire's WMF rasteriser (1x and 2x, aliased), extracts the balloon theme from
-`OBALLOON.DLL` 10.0.2607 (Office XP), and writes `pack.toml` and `CONTENTS.md`. The output
-is byte-identical on every run. Each `.bwc` names its source file and its SHA-256 prefix in
-`[source]`.
+`OBALLOON.DLL` 10.0.2607 (Office XP), and writes `CONTENTS.md`. The output is
+byte-identical on every run. Each `.bwc` names its source file and its SHA-256 prefix in
+`[source]`. `pack.toml` is not generated: besides the pack metadata it holds the display
+labels where the files cannot tell (product qualifiers such as "third-party", and names
+such as Saeko-sensei and Tutor).
 
 ## Screenshots and GIFs
 
