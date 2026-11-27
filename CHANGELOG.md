@@ -6,6 +6,23 @@ All notable changes to the classics pack are documented here. The format follows
 
 ## [Unreleased]
 
+## [2026.11.3] - 2026-11-27
+
+Requires bentwire 0.1.0 or later. 61 characters, every picture pixel-identical to
+2026.11.2 (checked frame by frame at every size, with and without smooth edges).
+
+### Changed
+
+- Smaller: every sheet regenerated with the bentwire 0.6 PNG writer (the smallest indexed
+  bit depth, libdeflate at level 12). The installed pack shrinks from 91.1 MB to 71.4 MB,
+  the release archive from 86.7 MB to 67.7 MB. The archive no longer carries the README
+  pictures (`gallery/`, `screenshots/`).
+- Office balloon theme: the frames of the buttons and bullets are extracted in the state
+  order proven from the original (normal, hot, pressing, pressed, disabled; bentwire
+  R-OB-8, R-OB-11), and the scroll arrows have their 5 frames of 17x9 (R-OB-36). With
+  bentwire 0.6 a focused button keeps its state picture and shows a focus rectangle around
+  its caption, as in Office.
+
 ## [2026.11.2] - 2026-11-12
 
 Requires bentwire 0.1.0 or later. 61 characters; all but the two Greetings Workshop actors

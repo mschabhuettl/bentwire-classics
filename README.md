@@ -173,7 +173,7 @@ Byte-identical copies of a source are skipped as duplicates.
 <details>
 <summary>Size</summary>
 
-The pack is about 81 MB. Vector actors carry a 2x HiDPI sheet next to the 1x sheet, so they
+The pack is about 71 MB (the release archive about 68 MB). Vector actors carry a 2x HiDPI sheet next to the 1x sheet, so they
 are the one case larger than their source: Office 97 Clippit is 361 kB (1x) plus 954 kB
 (2x) against a 468 kB `.ACT`; Will (Bob and Office 97) is about 6 times its `.ACT`. Bitmap
 and Agent characters are smaller than their sources.
