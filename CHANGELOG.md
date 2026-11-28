@@ -6,6 +6,17 @@ All notable changes to the classics pack are documented here. The format follows
 
 ## [Unreleased]
 
+## [2026.11.4] - 2026-11-28
+
+Requires bentwire 0.1.0 or later. 61 characters, pictures unchanged.
+
+### Fixed
+
+- Sounds: the FLAC files declared a minimum block size smaller than their fixed block size,
+  so `flac -d` and `flac -t` warned that frame numbers did not increase (748 of 1160
+  sounds). All 1160 are rewritten with the bentwire 0.7 converter: only the two bytes of
+  that field change, every sound decodes to the same PCM as before, and no file warns.
+
 ## [2026.11.3] - 2026-11-27
 
 Requires bentwire 0.1.0 or later. 61 characters, every picture pixel-identical to
